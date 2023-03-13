@@ -1,0 +1,278 @@
+Results of OLG Model with Intangible Capital
+--------------------------------------------
+  Parameters
+  ----------
+    Asset grid lower bound                  0.000 
+    Asset grid upper bound                 10.000 
+    Corporate share of output               0.640 
+    Discount factor                         0.983 
+    Tangible depreciation, sector 1         0.080 
+    Intangible depreciation, sector 1       0.080 
+    Tangible depreciation, sector 2         0.050 
+    Intangible depreciation, sector 2       0.090 
+    Weight on leisure in utility            0.030     Weight on leisure in utility            0.050     Weight on leisure in utility            0.030     Weight on leisure in utility            0.050 
+    Growth of population (%)               -1.000 
+    Growth of technology (%)                0.700 
+    Tax rate on consumption                 0.163 
+    Tax rate on distributions               0.250 
+    Tax rate on labor                       0.000 
+    Tax rate on corporate profits           0.400 
+    Tax rate on noncorp. profits            0.400 
+    Tangible capital share, sector 1        0.450 
+    Intangible capital share, sector 1      0.150 
+    Tangible capital share, sector 2        0.350 
+    Intangible capital share, sector 2      0.050 
+    TFP parameter                           1.000 
+    Populations, by productivity level  
+      Group 1                               0.421 
+      Group 2                               0.299 
+      Group 3                               0.060 
+      Group 4                               0.220 
+    Fraction working                        0.678 
+      Group 1                               0.299 
+      Group 2                               0.194 
+      Group 3                               0.043 
+      Group 4                               0.143 
+    Fraction retired                        0.322 
+      Group 1                               0.122 
+      Group 2                               0.105 
+      Group 3                               0.017 
+      Group 4                               0.078 
+    Age of first job                           20 
+    Ages when retired                    
+      Group 1                                  65 
+      Group 2                                  65 
+      Group 3                                  65 
+      Group 4                                  65 
+    Maximum age                               120 
+    Degree of annuitization                   100 
+ 
+  Labor Tax Schedule
+  ------------------
+    Over incomes (y): 
+      y1                                    0.000
+      y2                                    0.100
+      y3                                    0.200
+      y4                                    0.300
+      y5                                    0.400
+      y6                                    0.500
+      y7                                    0.600
+      y8                                    0.700
+      y9                                    0.800
+      y10                                   0.900
+      y11                                   1.000
+      y12                                   1.500
+      y13                                   2.000
+      y14                                   2.500
+ 
+    Tax schedule is (a+b*y): 
+      a1                                    0.000
+      a2                                   -0.016
+      a3                                   -0.033
+      a4                                   -0.036
+      a5                                   -0.040
+      a6                                   -0.044
+      a7                                   -0.046
+      a8                                   -0.053
+      a9                                   -0.060
+      a10                                  -0.064
+      a11                                  -0.074
+      a12                                  -0.104
+      a13                                  -0.162
+      a14                                  -0.312
+ 
+      b1                                    0.027
+      b2                                    0.191
+      b3                                    0.272
+      b4                                    0.285
+      b5                                    0.294
+      b6                                    0.302
+      b7                                    0.306
+      b8                                    0.315
+      b9                                    0.324
+      b10                                   0.328
+      b11                                   0.338
+      b12                                   0.358
+      b13                                   0.387
+      b14                                   0.447
+ 
+  Retiree Transfer Schedule
+  -------------------------
+    Over incomes (y): 
+      y1                                    0.000
+ 
+    Transfer schedule is (a+b*y): 
+      a1                                    0.000
+ 
+      b1                                    0.000
+ 
+  Steady State Values
+  -------------------
+    Interest rate (%)                       4.272 
+    Wage rate                               1.358 
+    HH transfer                             0.000 
+ 
+  National Accounts (rel. to GDP)  
+  -------------------------------  
+  * Gross National Product/Income 
+ 
+    Consumption (C)                         0.576 
+    Tangible investment (XT)                0.210 
+      Corporate (XT1)                       0.158 
+      Noncorporate (XT2)                    0.053 
+    Government spending (G)                 0.070 
+                                            =====
+    GDP (Y-XI)                              1.000 
+ 
+    Labor income (wL)                       0.509 
+      Corporate (wL1)                       0.276 
+      Noncorporate (wL2)                    0.233 
+    Capital income (Y-wL-XI)                0.491 
+      Corporate (p1 Y1-wL1-XI1)             0.349 
+        Taxes                               0.074 
+        Net dividends                       0.117 
+        Undistributed                      -0.006 
+        Depreciation                        0.164 
+      Noncorporate (p2 Y2-wL2-XI2)          0.142 
+        Taxes                               0.035 
+        Distributions before tax            0.052 
+        Depreciation                        0.056 
+                                            =====
+    GDI = GDP                               1.000 
+     Corporate value added                  0.625 
+     Noncorporate value added               0.375 
+ 
+    Addenda: intangible (XI)                0.077 
+ 
+  * Government Expenditures/Receipts 
+ 
+    Consumption of G&S                      0.070 
+    Transfers                               0.262 
+      To retirees                           0.198 
+        Group 1                             0.089
+        Group 2                             0.066
+        Group 3                             0.008
+        Group 4                             0.036
+      To workers                            0.064 
+        Group 1                             0.031
+        Group 2                             0.018
+        Group 3                             0.004
+        Group 4                             0.011
+    Interest paid                           0.064 
+                                            =====
+    Expenditures                            0.396 
+ 
+    Tax revenues                            0.384 
+      Consumption                           0.094 
+      Labor                                 0.152 
+        Group 1                             0.092 
+        Group 2                             0.038 
+        Group 3                             0.006 
+        Group 4                             0.016 
+      Dividends                             0.029 
+      C-Profits                             0.074 
+      NC-Profits                            0.035 
+    Interest received                       0.000 
+    Accidental bequests                     0.016 
+                                            =====
+    Receipts                                0.400 
+                                            =====
+    Deficit=Expend.-Receipts               -0.005 
+ 
+  Fixed Assets (rel. to GDP)
+  --------------------------
+    Tangible capital (KT')                  3.159 
+      Corporate (KT1')                      2.044 
+      Noncorporate (KT2')                   1.115 
+    Addenda: intangible (KI')               0.985 
+      Corporate (KI1')                      0.839 
+      Noncorporate (KI2')                   0.146 
+                                            =====
+    Total                                   4.144 
+ 
+  Flow of Funds (rel. to GDP)
+  ---------------------------
+  * Household Balance Sheet
+ 
+    Tangible capital (vT)                   2.648 
+      Corporate (vT1)                       1.533 
+      Noncorporate (vT2)                    1.115 
+    Government Debt (B')                    1.495 
+    Addenda: intangible (vI)                0.465 
+      Corporate (vI1)                       0.378 
+      Noncorporate (vI2)                    0.087 
+                                            =====
+    Net Worth                               4.609 
+ 
+  * Government Balance Sheet
+ 
+    Tangible capital (KT'-vT)               0.511 
+    Government Debt (-B')                  -1.495 
+    Addenda: intangible (KI'-vI)            0.520 
+                                            =====
+    Net Worth                              -0.465 
+ 
+  Welfare
+  -------
+  * Individual consumption
+      Average across all types              0.358 
+      Weighted sum across all types         0.358 
+        Sum mu_j*c_j, group 1               0.189 
+        Sum mu_j*c_j, group 2               0.104 
+        Sum mu_j*c_j, group 3               0.015 
+        Sum mu_j*c_j, group 4               0.050 
+ 
+  * Individual labor supply 
+      Average across all types              0.153 
+      Weighted sum across all types         0.233 
+        Sum mu_j*l_j, group 1               0.108 
+        Sum mu_j*l_j, group 2               0.064 
+        Sum mu_j*l_j, group 3               0.015 
+        Sum mu_j*l_j, group 4               0.046 
+ 
+  * Individual effective labor supply 
+      Average across all types              0.130 
+      Weighted sum across all types         0.233 
+        Sum mu_j*l_j*eps_j, group 1         0.137 
+        Sum mu_j*l_j*eps_j, group 2         0.060 
+        Sum mu_j*l_j*eps_j, group 3         0.010 
+        Sum mu_j*l_j*eps_j, group 4         0.027 
+ 
+  * Individual labor incomes rel. to GDP
+      Weighted sum across all types         0.509 
+        Sum w*mu_j*l_j*eps_j, group 1       0.298 
+        Sum w*mu_j*l_j*eps_j, group 2       0.132 
+        Sum w*mu_j*l_j*eps_j, group 3       0.021 
+        Sum w*mu_j*l_j*eps_j, group 4       0.058 
+ 
+  * Values for computing welfare
+ 
+    Ind. lifetime utility, group 1        -42.327 
+    Discount = sum beta^j*prod(ps(j)))     37.679 
+ 
+    Ind. lifetime utility, group 2        -56.681 
+    Discount = sum beta^j*prod(ps(j)))     40.155 
+ 
+    Ind. lifetime utility, group 3        -63.959 
+    Discount = sum beta^j*prod(ps(j)))     37.679 
+ 
+    Ind. lifetime utility, group 4        -73.777 
+    Discount = sum beta^j*prod(ps(j)))     40.155 
+ 
+ 
+    % Welfare gain=(exp((U1-U2)/Discount)-1)*100 
+ 
+ 
+  Detrended GDP:                            0.622 
+ 
+ 
+ 
+ % Share     % Share    % Share of Transfers
+Population Compensation  Workers   Retirees
+============================================
+       42        59         48        45 
+       30        26         28        33 
+        6         4          6         4 
+       22        11         18        18 
+
+>> 
