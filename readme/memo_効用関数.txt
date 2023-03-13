@@ -1,0 +1,18 @@
+%% å¯ópä÷êî
+%for j=1:nprod
+%  U(j)    = sum((beta.^[0:nage-1]').*cumprod([1;psmat(1:nage-1,j)]).* ...
+%              (log(cj(:,j))+gam*log(1-lj(:,j))));
+%  Disc(j) = sum((beta.^[0:nage-1]').*cumprod([1;psmat(1:nage-1,j)]));
+%end;
+
+ for j=1:nprod
+%     U(j) = sum( gam(j).*((1.-lj(:,j)).^(1.-zeta(j))-1.)./(1.-zeta(j)));
+     if ( zeta(j) == 1 )
+       U(j)   = sum((beta.^[0:nage-16]').*cumprod([1;psmat(1:nage-16,j)]).* ...
+                (log(cj(1:end-15,j)) + gam(j) .* log(1.-lj(1:end-15,j))));
+     else
+       U(j)   = sum((beta.^[0:nage-16]').*cumprod([1;psmat(1:nage-16,j)]).* ...
+                (log(cj(1:end-15,j)) + gam(j) .* ((1.-lj(1:end-15,j)).^(1.-zeta(j))-1.)./(1.-zeta(j))));
+     end
+  Disc(j) = sum((beta.^[0:nage-16]').*cumprod([1;psmat(1:nage-16,j)]));
+ end;
